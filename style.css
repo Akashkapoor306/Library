@@ -102,6 +102,11 @@ h2
     margin-left: 3px;
 }
 
+.Toggle
+{
+  margin-right: 25px;
+}
+
 #Title-input{
     margin-right: -4px;
 }
@@ -111,6 +116,10 @@ h2
 
 #Pages-input{
     margin-left: 35px;
+}
+#Toggle-input
+{
+  margin-right: 85px;
 }
 
 input
@@ -139,7 +148,7 @@ input
 
 dialog{
     width: 30rem;
-    height: 30vh;
+    height: 40vh;
     background-color: #FFE7A0;
     border-radius: 20px;
     animation: fade-out 0.7s ease-out;
@@ -152,6 +161,31 @@ dialog{
   dialog[open]::backdrop {
     animation: backdrop-fade-in 0.7s ease-out forwards;
   }
+
+
+  .read-button {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+  
+    border-radius: 10px;
+}
+
+.read {
+    background-color: #FFE7A0;
+    color: black;
+    border: 3px solid black;
+}
+
+.not-read {
+    background-color: #00C4FF;
+    color: white;
+    border: 3px solid #FFF5B8;
+}
+
+
   /* Animation keyframes */
 
 @keyframes fade-in {
